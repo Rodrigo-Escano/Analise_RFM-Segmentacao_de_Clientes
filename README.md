@@ -36,6 +36,6 @@ Todo o processo foi realizado na Linguagem R, e está presente no script “Proj
 
 # Resultados
 
-O modelo de Cluster foi executado inicialmente com 5 categorias, como de padrão no mercado, porém o pacote “NbClust”, que fornece 30 índices para propor o melhor esquema de agrupamento/número de clusters, indicou que o melhor número de segmento seriam 3, baseado nos dados disponíveis. O modelo foi então refeito, com 3 clusters.
+O modelo de Cluster foi executado inicialmente com 5 categorias, como de padrão no mercado, porém o pacote “NbClust”, que fornece 30 índices para propor o melhor esquema de agrupamento/número de clusters, indicou que o melhor número de segmento seriam 3, baseado nos dados disponíveis. O modelo foi então refeito com 3 clusters.
 
 O algoritmo K-Means nomeia automaticamente os clusters os numerando (1,2,3) conforme presente no Gráfico de Segmentação de Clientes, porém esses números representam apenas nomes, não sendo a ordem hierárquica deles. Os clusters foram renomeados como “Premium”, “Intermediário” e “Menor” nos dois relatórios finais, e estão representados no Gráfico “Score RFM dos Segmentos”. Note que o componente Recência é o único que sendo menor é melhor, ou seja, significa que houve menos tempo desde que o cliente fez a última compra.
