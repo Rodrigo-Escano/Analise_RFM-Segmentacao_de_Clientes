@@ -28,7 +28,7 @@ De acordo com essas métricas, é possível segmentar os clientes em grupos para
 
 # Como foi feito?
 
-Primeiro foi realizada limpeza dos dados originais, disponíveis no arquivo “online_retail_II”, descartando os outliers e valores ausentes, e em seguida foi calculado o score RFM utilizando o pacote “rfm” na linguagem R. Esses dados foram empregados para alimentar o modelo de segmentação usando Machine Learning com aprendizado não supervisionado.
+Primeiro foi realizada limpeza dos dados originais, disponíveis no arquivo “online_retail_II” (https://drive.google.com/file/d/1kkEuUWaTuALygNtk5uT0s0-WdRFdfFl5/view?usp=share_link), descartando os outliers e valores ausentes, e em seguida foi calculado o score RFM utilizando o pacote “rfm” na linguagem R. Esses dados foram empregados para alimentar o modelo de segmentação usando Machine Learning com aprendizado não supervisionado.
 
 O K-Means é um algoritmo de clusterização (ou agrupamento) disponível no pacote “factoextra” da linguagem R. É um algoritmo de aprendizado não supervisionado (ou seja, que não precisa de inputs de confirmação externos) que avalia e clusteriza os dados de acordo com suas características.
 
